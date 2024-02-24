@@ -131,6 +131,12 @@
   }
 
   /* footer */
+  .footer_wrapper{
+    padding-bottom:0;
+}
+  .footer_wrapper>div{
+     padding: 0 1.875rem;
+  }
 }
 
 @media (max-width: 360px) {
