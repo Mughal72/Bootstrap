@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor website Design Using Bootstrap</title>
+
+    <!-- favicon link -->
+    <link rel="icon" type="image/png" href="images/icon.png" />
+
+    <!-- bootstrap 5 cdn links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- font-awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- custom files links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <!-- logo -->
+            <img
+              src="images/logo.png"
+              width="60px"
+              height="60px"
+              class="img-fluid"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fas fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav menu-navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar section exit -->
+
+    <!-- Banner Section -->
+    <section id="home" class="home">
+      <div class="banner_wrapper wrapper">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 order-md-1 order-2">
+              <h3>Better Life Through</h3>
+              <h1>Expert Physiotherapy Care</h1>
+              <p>
+                At the core of our practice is a commitment to excellence in
+                patient care. We prioritize open communication, compassionate
+                support, and collaborative decision-making to ensure that you
+                receive the highest quality of care in a comfortable and
+                welcoming environment. We are dedicated about our duties.
+              </p>
+              <a href="#" class="main-btn mt-4 fill-btn">Appointment</a>
+              <a href="#" class="main-btn mt-4 ms-3">Learn More</a>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 mb-md-0 mb-5">
+              <div class="top-right-sec">
+                <div class="animate-img">
+                  <img
+                    class="aimg1"
+                    src="images/top-banner-img/woman-brush.png"
+                  />
+                  <img class="aimg2" src="images/top-banner-img/doctor.png" />
+                </div>
+                <img
+                  class="img-fluid mx-xl-5"
+                  src="images/top-banner-img/top-right-img-1.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card text-center">
+                <div class="icon-box">
+                  <img src="images/top-banner-img/Appointment-icon.png" />
+                </div>
+                <div>
+                  <h4>Easy Appointment</h4>
+                  <p>
+                    Ready to take the first step towards a healthier, more
+                    active lifestyle? Schedule an appointment with our expert
+                    physiotherapy team today.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card text-center">
+                <div class="icon-box">
+                  <img src="images/top-banner-img/Emergency-icon.png" />
+                </div>
+                <div>
+                  <h4>Emergency Services</h4>
+                  <p>
+                    In case of emergencies or urgent medical needs, our clinic
+                    offers dedicated emergency physiotherapy services.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card text-center">
+                <div class="icon-box">
+                  <img src="images/top-banner-img/7-Service-icon.png" />
+                </div>
+                <div>
+                  <h4>24/7 Services</h4>
+                  <p>
+                    For your convenience and peace of mind, we provide 24/7
+                    access to physiotherapy services.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Section exit -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-md-0 mb-5">
+            <div class="position-relative">
+              <img src="images/about/about-banner1.png" class="img-fluid" />
+              <img src="images/about/about-img2.png" class="about-animate" />
+            </div>
+          </div>
+          <div class="col-md-6 text-center text-md-start">
+            <h2>About Us</h2>
+            <p>
+              Welcome to FlexiHealth Clinic, where we're dedicated to enhancing
+              lives through personalized care and expertise in physiotherapy.
+              With a passion for helping our patients achievetheir health and
+              wellness goals, our experienced team is committed to providing
+              compassionate support and evidence-based treatments tailored to
+              your unique needs. Discover how we can empower you to move better,
+              feel better, and live better.
+            </p>
+            <div class="mt-5 card">
+              <div class="about-clinic">
+                <h4>500+</h4>
+                <p>Happy Patients</p>
+              </div>
+              <div class="about-clinic">
+                <h4>88+</h4>
+                <p>Qualified Doctors</p>
+              </div>
+              <div class="about-clinic">
+                <h4>25+</h4>
+                <p>Years Experience</p>
+              </div>
+              <div class="about-clinic">
+                <h4>35+</h4>
+                <p>Therapist Awards</p>
+              </div>
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section exit -->
+    <section id="services" class="services_wrapper wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2 text-center mb-5">
+            <h3>Our Services</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/services/1.svg" />
+              </div>
+              <div>
+                <h4>Injury Rehab</h4>
+                <p>
+                    Personalized programs for swift recovery and improved mobility after injuries.
+                </p>
+
+                <a href="#" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/services/2.svg" />
+              </div>
+              <div>
+                <h4>Pain Management</h4>
+                <p>
+                    Effective strategies to alleviate discomfort and enhance overall well-being.
+                </p>
+                <a href="#" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/services//3.svg" />
+              </div>
+              <div>
+                <h4>Sports Recovery</h4>
+                <p>
+                    Our sports injury recovery programs are designed to get you back in the game safely and swiftly.
+                </p>
+                <a href="#" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/services/4.svg" />
+              </div>
+              <div>
+                <h4>Post-Surgical Rehab</h4>
+                <p>
+            Regain strength, mobility, and independence post-surgery with our Post-Op Rehab, guiding you through a
+             personalized recovery journey to restore function, empowering you to resume your
+              daily activities with confidence.
+                </p>
+                <a href="#" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/services/5.svg" />
+              </div>
+              <div>
+                <h4>Movement Optimization</h4>
+                <p>
+                Unlock your body's potential with our Movement Optimization Programs, tailored to refine your mechanics, 
+                prevent injuries, and enhance performance, ensuring you move with efficiency and grace.
+                </p>
+                <a href="#" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <div class="icon-box">
+                <img src="images/services/6.svg" />
+              </div>
+              <div>
+                <h4>Performance Enhancement</h4>
+                <p>
+            Maximize athletic potential with our Performance Enhancement services, designed to optimize skills,
+            boost endurance, enhance competitiveness, and ensure performance.
+                </p>
+                <a href="#" class="main-btn mt-4">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment section -->
+
+    <!-- Blog Section -->
+
+    <!-- Bog section exit -->
+
+    <!-- Footer section -->
+
+    <!-- Footer section exit -->
+
+    <!-- bootstrap 5 JS cdn links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- custom JS link -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
