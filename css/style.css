@@ -475,6 +475,7 @@ p{
 /* 11. Footer */
 .footer_wrapper{
     background-color: var(--primary-color);
+    padding-bottom:0;
 }
 
 .footer_wrapper h5{
@@ -542,3 +543,23 @@ p{
     transform: translateY(-0.1875rem);
 }
 
+.footer_wrapper ::placeholder{
+    color: var(--text-light);
+}
+
+.footer_wrapper .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color:var(--bg-white) ;
+}
+
+.footer_wrapper .copyright-section{
+    background-color: var(--bg-light-blue);
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
+.footer_wrapper .copyright-section a{
+    color: var(--text-white);
+    font-weight: 600;
+}
