@@ -485,6 +485,11 @@ p{
 .footer_wrapper .contact-info ul a{
     padding: 0;
 }
+
+.footer_wrapper .contact-info i:hover{
+    color: var(--secondary-color);
+}
+
 .footer_wrapper ul li{
     margin-bottom: 0.5rem;
     list-style: none;
@@ -522,27 +527,42 @@ p{
 }
 
 
-.footer_wrapper .social-network a{
-    width: 2.1875rem;
-    height: 2.1875rem;
+/* Reset default list styles */
+.footer_wrapper .social-network {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for each list item */
+  .footer_wrapper .social-network li {
+    margin-right: 2px;
+  }
+  
+  /* Style for anchor links */
+ .footer_wrapper .social-network li a {
     margin: .5rem;
+    padding: .5rem;
+    color: var(--text-white);
     line-height: 2rem;
-    font-size: .875rem;
-    display: inline-block;
-    border: .125rem solid var(--bg-light-blue);
-    color: var(--text-light);
+    text-decoration: none;
     text-align: center;
-    border-radius:100%;
+    font-size: .875rem;  
+    border-radius: 100%; 
+    display: inline-block; 
+    border: .125rem solid var(--bg-light-blue);
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.041, 0.355, 1);
     transition: all 0.3s cubic-bezier(0.645, 0.041, 0.355, 1);
-}
-
-.footer_wrapper .social-network  a:hover{
+  }
+  
+  /* Style for hover effect on anchor links */
+ .footer_wrapper .social-network li a:hover {
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
     color: var(--text-white);
     transform: translateY(-0.8175rem);
-}
+  }
+  
 
 .footer_wrapper ::placeholder{
     color: var(--text-light);
