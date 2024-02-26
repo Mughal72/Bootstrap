@@ -22,3 +22,4 @@ navBar.forEach(function(a){
     })
     
 });
+

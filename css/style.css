@@ -151,7 +151,6 @@ h6{
 
 }
 
-
 p{
     font-size: 1rem;
     color: var(--text-gray);
@@ -231,6 +230,7 @@ p{
     box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0, 0, 0 / 8%);
     transition: 0.3s ease-in-out;
 }
+
 
 
 /* 3. Banner */
@@ -532,3 +532,4 @@ p{
     color: var(--text-white);
     font-weight: 600;
 }
+
