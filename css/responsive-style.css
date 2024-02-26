@@ -8,19 +8,12 @@
   .header-wrapper .navbar-nav .nav-link {
     font-size: 1rem;
   }
-  /* top banner */
-  .banner_wrapper .animate-img .aimg1 {
-    left: -3.125rem;
-  }
-
+ 
   /* about */
   .about_wrapper .card {
     width: 100%;
   }
 
-  .about_wrapper .about-animate {
-    left: 0.9375rem;
-  }
 
   /* services */
   .services_wrapper .card {
